@@ -1,0 +1,14 @@
+.actions{
+    padding: 10px;
+}
+button {
+    text-align: center; 
+    text-shadow: 0 1px 1px #fff; 
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #83868b; 
+    background-color: #b2e2de;
+    box-shadow: 0 1px 1px #fff; 
+}
+

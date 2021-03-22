@@ -1,5 +1,8 @@
-<div>{{title}}</div>
+<h1>{{title}}</h1>
+<mat-tab-group>
+  <mat-tab label="Current"> <app-current-notes></app-current-notes> </mat-tab>
+  <mat-tab label="Achive"> <p>Under construction!</p> </mat-tab>
 
-<mat-slider min="1" max="100" step="1" value="1.5"></mat-slider>
+</mat-tab-group>
 
 <router-outlet></router-outlet>
